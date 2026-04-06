@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "title": "Compulsory Skills with Questionnaire Available",
+    "description": "Complete list of EU AI Act compulsory skills that have assessment questionnaires available",
+    "totalCount": 61,
+    "generatedDate": "2026-02-05",
+    "source": "assessmentFrameworks data structure"
+  },
+  "skills": [
+    {
+      "skillId": "risk-assessment",
+      "displayName": "Risk Assessment and Management",
+      "category": "Risk",
+      "article": "Art. 9",
+      "description": "Systematic identification, analysis, and management of risks in AI systems."
+    },
+    {
+      "skillId": "ai-safety",
+      "displayName": "AI Safety Planning",
+      "category": "Risk",
+      "article": "Art. 9",
+      "description": "Comprehensive safety analysis and risk mitigation strategies for AI systems."
+    },
+    {
+      "skillId": "incident-responder",
+      "displayName": "Incident Response Framework",
+      "category": "Risk",
+      "article": "Art. 9",
+      "description": "Framework for responding to and managing AI system incidents."
+    },
+    {
+      "skillId": "data-classification",
+      "displayName": "Data Classification and Governance",
+      "category": "Data",
+      "article": "Art. 10",
+      "description": "Classification and categorization of data used in AI systems."
+    },
+    {
+      "skillId": "fria-assessment",
+      "displayName": "Fundamental Rights Impact Assessment (FRIA)",
+      "category": "Rights",
+      "article": "Art. 27",
+      "description": "Conducts comprehensive assessment of AI system impact on fundamental rights including privacy, non-discrimination, and human dignity per Article 27."
+    },
+    {
+      "skillId": "bias-assessment",
+      "displayName": "Bias Assessment and Testing",
+      "category": "Fairness",
+      "article": "Art. 10",
+      "description": "Comprehensive bias detection and assessment framework."
+    },
+    {
+      "skillId": "hitl-design",
+      "displayName": "Human-in-the-Loop Design",
+      "category": "Oversight",
+      "article": "Art. 14",
+      "description": "Human oversight and intervention mechanisms in AI systems."
+    },
+    {
+      "skillId": "prompt-injection-detector",
+      "displayName": "Prompt Injection Detection",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Detection and prevention of prompt injection attacks."
+    },
+    {
+      "skillId": "security-frameworks",
+      "displayName": "Security Frameworks Assessment",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Comprehensive security assessment framework."
+    },
+    {
+      "skillId": "vulnerability-scanning",
+      "displayName": "Vulnerability Scanning Assessment (Grype)",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Automated vulnerability scanning for AI systems."
+    },
+    {
+      "skillId": "python-dependency-safety",
+      "displayName": "Python Dependency Safety Assessment (Safety/PyUp)",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Python dependency security assessment."
+    },
+    {
+      "skillId": "snyk-security-assessment",
+      "displayName": "Snyk Security Assessment",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Snyk-based security vulnerability assessment."
+    },
+    {
+      "skillId": "oss-scorecard-assessment",
+      "displayName": "OSS Scorecard Assessment",
+      "category": "Security",
+      "article": "Art. 15",
+      "description": "Open source security scorecard assessment."
+    },
+    {
+      "skillId": "evidently-ai",
+      "displayName": "Evidently AI Monitoring Assessment",
+      "category": "Monitoring",
+      "article": "Art. 15",
+      "description": "AI model monitoring and drift detection."
+    },
+    {
+      "skillId": "alibi-detect",
+      "displayName": "Alibi Detect Assessment",
+      "category": "Monitoring",
+      "article": "Art. 15",
+      "description": "Outlier and drift detection for AI systems."
+    },
+    {
+      "skillId": "ai-fairness-360",
+      "displayName": "AI Fairness 360 Assessment",
+      "category": "Fairness",
+      "article": "Art. 10",
+      "description": "IBM AI Fairness 360 toolkit assessment."
+    },
+    {
+      "skillId": "fairlearn",
+      "displayName": "Fairlearn Assessment",
+      "category": "Fairness",
+      "article": "Art. 10",
+      "description": "Microsoft Fairlearn fairness assessment."
+    },
+    {
+      "skillId": "aequitas",
+      "displayName": "Aequitas Bias Audit",
+      "category": "Fairness",
+      "article": "Art. 10",
+      "description": "Aequitas bias and fairness audit toolkit."
+    },
+    {
+      "skillId": "toxicity-detection",
+      "displayName": "Toxicity Detection Assessment",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Detection and filtering of toxic content."
+    },
+    {
+      "skillId": "detoxify",
+      "displayName": "Detoxify Assessment",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Detoxify library for toxicity detection."
+    },
+    {
+      "skillId": "perspective-api",
+      "displayName": "Perspective API Assessment",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Google Perspective API for content toxicity."
+    },
+    {
+      "skillId": "moderate-content-api",
+      "displayName": "Moderate Content API Assessment",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Content moderation API assessment."
+    },
+    {
+      "skillId": "hate-speech-detection",
+      "displayName": "Hate Speech Detection Assessment",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Hate speech detection and prevention."
+    },
+    {
+      "skillId": "hate-speech-detector",
+      "displayName": "Hate Speech Detector",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Advanced hate speech detection tool."
+    },
+    {
+      "skillId": "claim-verification",
+      "displayName": "Claim Verification Assessment",
+      "category": "Accuracy",
+      "article": "Art. 13",
+      "description": "Verification of factual claims in AI outputs."
+    },
+    {
+      "skillId": "ai-ethics-framework",
+      "displayName": "AI Ethics Framework",
+      "category": "Ethics",
+      "article": "Multiple",
+      "description": "Comprehensive AI ethics framework."
+    },
+    {
+      "skillId": "ai-ethics-advisor",
+      "displayName": "AI Ethics Advisor",
+      "category": "Ethics",
+      "article": "Multiple",
+      "description": "AI ethics advisory and guidance system."
+    },
+    {
+      "skillId": "ai-safety-planning",
+      "displayName": "AI Safety Planning",
+      "category": "Safety",
+      "article": "Art. 9",
+      "description": "Comprehensive AI safety planning framework."
+    },
+    {
+      "skillId": "fact-checking-system",
+      "displayName": "Fact-Checking System",
+      "category": "Accuracy",
+      "article": "Art. 13",
+      "description": "Automated fact-checking for AI outputs."
+    },
+    {
+      "skillId": "ai-generated-content-detection",
+      "displayName": "AI Generated Content Detection",
+      "category": "Transparency",
+      "article": "Art. 13",
+      "description": "Detection of AI-generated content."
+    },
+    {
+      "skillId": "ai-governance",
+      "displayName": "AI Governance Framework",
+      "category": "Governance",
+      "article": "Multiple",
+      "description": "Comprehensive AI governance framework."
+    },
+    {
+      "skillId": "qms-tracker",
+      "displayName": "Quality Management System Tracker",
+      "category": "Quality",
+      "article": "Art. 17",
+      "description": "Quality management system for AI systems."
+    },
+    {
+      "skillId": "ai-logging-system",
+      "displayName": "AI Logging System",
+      "category": "Traceability",
+      "article": "Art. 12",
+      "description": "Comprehensive logging and traceability system."
+    },
+    {
+      "skillId": "ai-system-registry",
+      "displayName": "AI System Registry",
+      "category": "Registration",
+      "article": "Art. 49",
+      "description": "EU AI system registration and documentation."
+    },
+    {
+      "skillId": "explainability-planning",
+      "displayName": "Explainability Planning",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "Planning and implementing AI explainability."
+    },
+    {
+      "skillId": "model-card-generation",
+      "displayName": "Model Card Generation",
+      "category": "Documentation",
+      "article": "Art. 11",
+      "description": "Generation of model cards and documentation."
+    },
+    {
+      "skillId": "model-cards-generator",
+      "displayName": "Model Cards Generator",
+      "category": "Documentation",
+      "article": "Art. 11",
+      "description": "Automated model card generation tool."
+    },
+    {
+      "skillId": "shap-explainer",
+      "displayName": "SHAP Explainer",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "SHAP-based explainability analysis."
+    },
+    {
+      "skillId": "lime",
+      "displayName": "LIME Assessment",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "LIME local interpretable model-agnostic explanations."
+    },
+    {
+      "skillId": "ai-transparency-labels",
+      "displayName": "AI Transparency Labels",
+      "category": "Transparency",
+      "article": "Art. 13",
+      "description": "Transparency labeling for AI systems."
+    },
+    {
+      "skillId": "disaggregated-evaluation",
+      "displayName": "Disaggregated Evaluation",
+      "category": "Performance",
+      "article": "Art. 15",
+      "description": "Performance evaluation across demographic groups."
+    },
+    {
+      "skillId": "red-team-testing",
+      "displayName": "Red Team Testing",
+      "category": "Testing",
+      "article": "Art. 9",
+      "description": "Adversarial testing and red team exercises."
+    },
+    {
+      "skillId": "guardrails-implementation",
+      "displayName": "Guardrails Implementation",
+      "category": "Safety",
+      "article": "Art. 9",
+      "description": "Implementation of AI safety guardrails."
+    },
+    {
+      "skillId": "ragas",
+      "displayName": "RAGAS Assessment",
+      "category": "Performance",
+      "article": "Art. 15",
+      "description": "RAG (Retrieval Augmented Generation) assessment."
+    },
+    {
+      "skillId": "deepeval",
+      "displayName": "DeepEval Assessment",
+      "category": "Performance",
+      "article": "Art. 15",
+      "description": "Deep learning model evaluation framework."
+    },
+    {
+      "skillId": "huggingface-evaluate",
+      "displayName": "HuggingFace Evaluate",
+      "category": "Performance",
+      "article": "Art. 15",
+      "description": "HuggingFace evaluation framework."
+    },
+    {
+      "skillId": "langsmith",
+      "displayName": "LangSmith Assessment",
+      "category": "Monitoring",
+      "article": "Art. 12",
+      "description": "LangChain LangSmith monitoring and tracing."
+    },
+    {
+      "skillId": "weights-and-biases",
+      "displayName": "Weights & Biases",
+      "category": "Monitoring",
+      "article": "Art. 11",
+      "description": "Weights & Biases experiment tracking."
+    },
+    {
+      "skillId": "promptfoo",
+      "displayName": "Promptfoo Assessment",
+      "category": "Testing",
+      "article": "Art. 15",
+      "description": "Prompt testing and evaluation framework."
+    },
+    {
+      "skillId": "claimbuster-api",
+      "displayName": "ClaimBuster API",
+      "category": "Accuracy",
+      "article": "Art. 15",
+      "description": "Claim verification and fact-checking API."
+    },
+    {
+      "skillId": "ai-hallucination",
+      "displayName": "AI Hallucination Detection",
+      "category": "Accuracy",
+      "article": "Art. 15",
+      "description": "Detection and mitigation of AI hallucinations."
+    },
+    {
+      "skillId": "captum",
+      "displayName": "Captum Assessment",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "PyTorch Captum interpretability library."
+    },
+    {
+      "skillId": "interpretml",
+      "displayName": "InterpretML Assessment",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "Microsoft InterpretML framework."
+    },
+    {
+      "skillId": "what-if-tool",
+      "displayName": "What-If Tool",
+      "category": "Explainability",
+      "article": "Art. 13",
+      "description": "Google What-If Tool for model analysis."
+    },
+    {
+      "skillId": "ethics-review",
+      "displayName": "Ethics Review",
+      "category": "Ethics",
+      "article": "Art. 9",
+      "description": "Comprehensive ethics review process."
+    },
+    {
+      "skillId": "validating-ai-ethics-and-fairness",
+      "displayName": "Validating AI Ethics and Fairness",
+      "category": "Ethics",
+      "article": "Art. 27",
+      "description": "Validation of AI ethics and fairness practices."
+    },
+    {
+      "skillId": "conformance-calibration",
+      "displayName": "Conformance Calibration",
+      "category": "Compliance",
+      "article": "Art. 14",
+      "description": "Conformance assessment and calibration."
+    },
+    {
+      "skillId": "ce-marking-generator",
+      "displayName": "CE Marking Generator",
+      "category": "Compliance",
+      "article": "Art. 48",
+      "description": "CE marking generation for AI systems."
+    },
+    {
+      "skillId": "ai-ethics-fact-checking",
+      "displayName": "AI Ethics Fact-Checking",
+      "category": "Ethics",
+      "article": "Multiple",
+      "description": "Fact-checking with ethical considerations."
+    },
+    {
+      "skillId": "content-toxicity-analysis",
+      "displayName": "Content Toxicity Analysis",
+      "category": "Content Safety",
+      "article": "Art. 9",
+      "description": "Comprehensive content toxicity analysis."
+    },
+    {
+      "skillId": "ai-alignment-framework",
+      "displayName": "AI Alignment Framework",
+      "category": "Alignment",
+      "article": "Multiple",
+      "description": "AI alignment and value alignment framework."
+    }
+  ],
+  "categorySummary": {
+    "Risk": 3,
+    "Data": 1,
+    "Rights": 1,
+    "Fairness": 4,
+    "Oversight": 1,
+    "Security": 6,
+    "Monitoring": 4,
+    "Content Safety": 7,
+    "Accuracy": 4,
+    "Ethics": 5,
+    "Safety": 2,
+    "Transparency": 2,
+    "Governance": 1,
+    "Quality": 1,
+    "Traceability": 1,
+    "Registration": 1,
+    "Explainability": 6,
+    "Documentation": 2,
+    "Performance": 3,
+    "Testing": 3,
+    "Compliance": 2,
+    "Alignment": 1
+  },
+  "articleSummary": {
+    "Art. 9": 11,
+    "Art. 10": 5,
+    "Art. 11": 3,
+    "Art. 12": 2,
+    "Art. 13": 9,
+    "Art. 14": 2,
+    "Art. 15": 11,
+    "Art. 17": 1,
+    "Art. 27": 2,
+    "Art. 48": 1,
+    "Art. 49": 1,
+    "Multiple": 5
+  }
+}

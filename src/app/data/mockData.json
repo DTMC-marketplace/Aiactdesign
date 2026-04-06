@@ -1,0 +1,1010 @@
+{
+  "aiInventory": {
+    "systems": [
+      {
+        "id": "1",
+        "name": "Customer Service Chatbot",
+        "owner": "Product Team",
+        "status": "In production",
+        "role": "Deployer",
+        "riskClassification": "Limited transparency",
+        "complianceStatus": "Compliant",
+        "lastUpdated": "2025-01-15",
+        "providerType": "External",
+        "systemProfile": {
+          "systemDescription": "AI-powered chatbot for automated customer service and support",
+          "businessPurpose": "Provide 24/7 customer support and reduce response times",
+          "targetAudience": "General public, customers",
+          "geographicScope": "EU, North America",
+          "deploymentDate": "2024-06-01",
+          "systemOwner": "Product Team",
+          "technicalContact": "tech-support@company.com"
+        },
+        "riskEvaluation": {
+          "prohibitedPractices": [],
+          "highRiskClassification": false,
+          "transparencyObligations": true,
+          "gpaiApplicability": false,
+          "finalRiskClassification": "Limited transparency"
+        }
+      },
+      {
+        "id": "2",
+        "name": "Resume Screening AI",
+        "owner": "HR Department",
+        "status": "Testing",
+        "role": "Provider",
+        "riskClassification": "High-risk",
+        "complianceStatus": "In progress",
+        "lastUpdated": "2025-01-18",
+        "providerType": "In-house",
+        "systemProfile": {
+          "systemDescription": "AI system for automated resume screening and candidate ranking",
+          "businessPurpose": "Streamline hiring process and identify qualified candidates",
+          "targetAudience": "Job applicants",
+          "geographicScope": "EU",
+          "deploymentDate": "2025-03-01",
+          "systemOwner": "HR Department",
+          "technicalContact": "hr-tech@company.com"
+        },
+        "riskEvaluation": {
+          "prohibitedPractices": [],
+          "highRiskClassification": true,
+          "transparencyObligations": true,
+          "gpaiApplicability": false,
+          "finalRiskClassification": "High-risk",
+          "highRiskReason": "Employment and workers management (Annex III, point 4)"
+        }
+      },
+      {
+        "id": "3",
+        "name": "Predictive Maintenance System",
+        "owner": "Operations Team",
+        "status": "In production",
+        "role": "Deployer",
+        "riskClassification": "Minimal",
+        "complianceStatus": "Compliant",
+        "lastUpdated": "2025-01-10",
+        "providerType": "Mixed",
+        "systemProfile": {
+          "systemDescription": "AI system for predicting equipment maintenance needs",
+          "businessPurpose": "Reduce downtime and optimize maintenance schedules",
+          "targetAudience": "Internal operations team",
+          "geographicScope": "Global",
+          "deploymentDate": "2024-01-15",
+          "systemOwner": "Operations Team",
+          "technicalContact": "ops-tech@company.com"
+        },
+        "riskEvaluation": {
+          "prohibitedPractices": [],
+          "highRiskClassification": false,
+          "transparencyObligations": false,
+          "gpaiApplicability": false,
+          "finalRiskClassification": "Minimal"
+        }
+      },
+      {
+        "id": "4",
+        "name": "Credit Scoring Model",
+        "owner": "Risk Analytics",
+        "status": "Planned",
+        "role": "Provider",
+        "riskClassification": "High-risk",
+        "complianceStatus": "Not started",
+        "lastUpdated": "2025-01-05",
+        "providerType": "In-house",
+        "systemProfile": {
+          "systemDescription": "AI system for credit risk assessment and scoring",
+          "businessPurpose": "Evaluate creditworthiness of loan applicants",
+          "targetAudience": "Loan applicants, financial institutions",
+          "geographicScope": "EU",
+          "deploymentDate": "2025-06-01",
+          "systemOwner": "Risk Analytics",
+          "technicalContact": "risk-tech@company.com"
+        },
+        "riskEvaluation": {
+          "prohibitedPractices": [],
+          "highRiskClassification": true,
+          "transparencyObligations": true,
+          "gpaiApplicability": false,
+          "finalRiskClassification": "High-risk",
+          "highRiskReason": "Creditworthiness evaluation (Annex III, point 5(b))"
+        }
+      },
+      {
+        "id": "5",
+        "name": "Fraud Detection System",
+        "owner": "Security Team",
+        "status": "In production",
+        "role": "Provider",
+        "riskClassification": "Minimal",
+        "complianceStatus": "Compliant",
+        "lastUpdated": "2025-01-28",
+        "providerType": "In-house",
+        "systemProfile": {
+          "systemDescription": "Real-time fraud detection and prevention system",
+          "businessPurpose": "Detect and prevent fraudulent transactions",
+          "targetAudience": "Internal security team, customers",
+          "geographicScope": "Global",
+          "deploymentDate": "2023-09-15",
+          "systemOwner": "Security Team",
+          "technicalContact": "security@company.com"
+        },
+        "riskEvaluation": {
+          "prohibitedPractices": [],
+          "highRiskClassification": false,
+          "transparencyObligations": false,
+          "gpaiApplicability": false,
+          "finalRiskClassification": "Minimal"
+        }
+      }
+    ]
+  },
+  "compliance": {
+    "projects": [
+      {
+        "id": "1",
+        "projectName": "Credit_Scorer_v2.0",
+        "sourceSystem": "Credit Scoring AI",
+        "sourceSystemId": "4",
+        "riskClassification": "High-Risk",
+        "progressPercentage": 65,
+        "criticalBlockers": 2,
+        "moderateBlockers": 1,
+        "lastUpdated": "2025-01-25",
+        "role": "Provider, Deployer, Product manufacturer, Distributor, Importer",
+        "regulatoryProfile": [
+          "EU AI Act - High-Risk System",
+          "GDPR - Data Processing",
+          "Consumer Credit Directive"
+        ],
+        "complianceScore": 65,
+        "tasks": [
+          {
+            "id": "1",
+            "taskName": "Risk Management System",
+            "category": "Risk",
+            "status": "Done",
+            "linkedArticles": ["Art. 9"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"],
+            "skillName": "risk-assessment",
+            "assessmentFramework": "risk-assessment"
+          },
+          {
+            "id": "2",
+            "taskName": "Data Governance",
+            "category": "Data",
+            "status": "Done",
+            "linkedArticles": ["Art. 10"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"],
+            "skillName": "data-classification",
+            "assessmentFramework": "data-governance"
+          },
+          {
+            "id": "3",
+            "taskName": "Technical documentation",
+            "category": "Legal",
+            "status": "In Progress",
+            "linkedArticles": ["Art. 11", "Annex IV"],
+            "assignee": {
+              "name": "Michael Torres",
+              "avatar": "MT"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider", "Product manufacturer"]
+          },
+          {
+            "id": "4",
+            "taskName": "Version Control",
+            "category": "Data",
+            "status": "Done",
+            "linkedArticles": ["Art. 12"],
+            "assignee": {
+              "name": "Michael Torres",
+              "avatar": "MT"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "5",
+            "taskName": "Event log (immutable)",
+            "category": "Data",
+            "status": "Done",
+            "linkedArticles": ["Art. 12", "Art. 19"],
+            "assignee": {
+              "name": "Michael Torres",
+              "avatar": "MT"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "6",
+            "taskName": "Instructions for Use (IFU)",
+            "category": "Legal",
+            "status": "Blocked",
+            "linkedArticles": ["Art. 13"],
+            "assignee": {
+              "name": "James Park",
+              "avatar": "JP"
+            },
+            "hasEvidence": false,
+            "roles": ["Product manufacturer"]
+          },
+          {
+            "id": "7",
+            "taskName": "Human Oversight",
+            "category": "Governance",
+            "status": "Blocked",
+            "linkedArticles": ["Art. 14"],
+            "assignee": {
+              "name": "Emma Wilson",
+              "avatar": "EW"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider", "Deployer"]
+          },
+          {
+            "id": "8",
+            "taskName": "Accuracy, Robustness & Cybersecurity",
+            "category": "Security",
+            "status": "In Progress",
+            "linkedArticles": ["Art. 15"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "9",
+            "taskName": "Quality Management System (QMS)",
+            "category": "Governance",
+            "status": "To-Do",
+            "linkedArticles": ["Art. 17"],
+            "assignee": {
+              "name": "James Park",
+              "avatar": "JP"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "10",
+            "taskName": "Conformity Assessment",
+            "category": "Legal",
+            "status": "To-Do",
+            "linkedArticles": ["Art. 43"],
+            "assignee": {
+              "name": "Emma Wilson",
+              "avatar": "EW"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider"]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "projectName": "Resume_Screener_Compliance",
+        "sourceSystem": "Resume Screening AI",
+        "sourceSystemId": "2",
+        "riskClassification": "High-Risk",
+        "progressPercentage": 45,
+        "criticalBlockers": 3,
+        "moderateBlockers": 2,
+        "lastUpdated": "2025-01-26",
+        "role": "Deployer",
+        "regulatoryProfile": [
+          "EU AI Act - High-Risk System",
+          "GDPR - Data Processing",
+          "Employment Equality Directive"
+        ],
+        "complianceScore": 45,
+        "tasks": [
+          {
+            "id": "1",
+            "taskName": "Risk Management System",
+            "category": "Risk",
+            "status": "In Progress",
+            "linkedArticles": ["Art. 9"],
+            "assignee": {
+              "name": "Michael Torres",
+              "avatar": "MT"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "2",
+            "taskName": "Data Governance",
+            "category": "Data",
+            "status": "In Progress",
+            "linkedArticles": ["Art. 10"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "3",
+            "taskName": "Bias Testing and Fairness",
+            "category": "Trust",
+            "status": "Blocked",
+            "linkedArticles": ["Art. 10", "Art. 15"],
+            "assignee": {
+              "name": "Emma Wilson",
+              "avatar": "EW"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "4",
+            "taskName": "Human Oversight",
+            "category": "Governance",
+            "status": "To-Do",
+            "linkedArticles": ["Art. 14"],
+            "assignee": {
+              "name": "James Park",
+              "avatar": "JP"
+            },
+            "hasEvidence": false,
+            "roles": ["Provider", "Deployer"]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "projectName": "ChatBot_Transparency_Check",
+        "sourceSystem": "Customer Service Chatbot",
+        "sourceSystemId": "1",
+        "riskClassification": "Limited transparency",
+        "progressPercentage": 90,
+        "criticalBlockers": 0,
+        "moderateBlockers": 1,
+        "lastUpdated": "2025-01-27",
+        "role": "Deployer",
+        "regulatoryProfile": [
+          "EU AI Act - Transparency Obligations",
+          "GDPR - Data Processing"
+        ],
+        "complianceScore": 90,
+        "tasks": [
+          {
+            "id": "1",
+            "taskName": "Transparency Requirements",
+            "category": "Legal",
+            "status": "Done",
+            "linkedArticles": ["Art. 50"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Deployer"]
+          },
+          {
+            "id": "2",
+            "taskName": "User Notification",
+            "category": "Legal",
+            "status": "Done",
+            "linkedArticles": ["Art. 50"],
+            "assignee": {
+              "name": "Emma Wilson",
+              "avatar": "EW"
+            },
+            "hasEvidence": true,
+            "roles": ["Deployer"]
+          },
+          {
+            "id": "3",
+            "taskName": "Privacy Impact Assessment",
+            "category": "Privacy",
+            "status": "In Progress",
+            "linkedArticles": ["GDPR Art. 35"],
+            "assignee": {
+              "name": "Michael Torres",
+              "avatar": "MT"
+            },
+            "hasEvidence": true,
+            "roles": ["Deployer"]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "projectName": "Predictive_Maintenance_Review",
+        "sourceSystem": "Predictive Maintenance System",
+        "sourceSystemId": "3",
+        "riskClassification": "Minimal",
+        "progressPercentage": 100,
+        "criticalBlockers": 0,
+        "moderateBlockers": 0,
+        "lastUpdated": "2025-01-20",
+        "role": "Provider",
+        "regulatoryProfile": [
+          "EU AI Act - Minimal Risk"
+        ],
+        "complianceScore": 100,
+        "tasks": [
+          {
+            "id": "1",
+            "taskName": "Basic Documentation",
+            "category": "Legal",
+            "status": "Done",
+            "linkedArticles": ["General"],
+            "assignee": {
+              "name": "James Park",
+              "avatar": "JP"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          },
+          {
+            "id": "2",
+            "taskName": "System Monitoring",
+            "category": "Governance",
+            "status": "Done",
+            "linkedArticles": ["General"],
+            "assignee": {
+              "name": "Sarah Chen",
+              "avatar": "SC"
+            },
+            "hasEvidence": true,
+            "roles": ["Provider"]
+          }
+        ]
+      }
+    ]
+  },
+  "assessmentTools": [
+    {
+      "id": "prompt-injection-detector",
+      "name": "Prompt Injection Detector",
+      "category": "Cybersecurity",
+      "description": "Detects and prevents prompt injection attacks in AI systems. Analyzes input prompts to identify potential security vulnerabilities including malicious instructions, data exfiltration attempts, and unauthorized command execution.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "security-frameworks",
+      "name": "Security Frameworks",
+      "category": "Cybersecurity",
+      "description": "Implements comprehensive security frameworks and best practices for AI systems. Provides structured approach to cybersecurity including threat modeling, vulnerability assessment, and security controls implementation.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "grype-vulnerability",
+      "name": "Grype Vulnerability Scanner",
+      "category": "Cybersecurity",
+      "description": "Scans container images and filesystems for known vulnerabilities in dependencies and libraries. Identifies security risks in AI system components.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "safety-pyup",
+      "name": "Safety (PyUp)",
+      "category": "Cybersecurity",
+      "description": "Checks Python dependencies for known security vulnerabilities and suggests updates. Maintains secure software supply chain for Python-based AI systems.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "snyk-io",
+      "name": "Snyk",
+      "category": "Cybersecurity",
+      "description": "Developer-first security platform that finds and automatically fixes vulnerabilities in code, dependencies, containers, and infrastructure as code.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "oss-scorecard",
+      "name": "OSS Scorecard",
+      "category": "Cybersecurity",
+      "description": "Assesses security posture of open-source projects using automated checks. Evaluates security practices of dependencies used in AI systems.",
+      "article": "Article 15",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "fria-assessment",
+      "name": "Fundamental Rights Impact Assessment (FRIA)",
+      "category": "Fundamental Rights",
+      "description": "Conducts comprehensive assessment of AI system impact on fundamental rights including privacy, non-discrimination, and human dignity.",
+      "article": "Article 27",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "data-classification",
+      "name": "Data Classification",
+      "category": "Privacy",
+      "description": "Automatically classifies and labels sensitive data including personal data, special categories of data, and confidential information.",
+      "article": "Article 10",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "gdpr-compliance",
+      "name": "GDPR Compliance",
+      "category": "Privacy",
+      "description": "Ensures AI systems comply with GDPR requirements including lawful basis, data minimization, purpose limitation, and data subject rights.",
+      "article": "GDPR",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "pii-detection",
+      "name": "PII Detection",
+      "category": "Privacy",
+      "description": "Automatically detects personally identifiable information in data sets and documents to ensure proper data protection measures.",
+      "article": "Article 10",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "anonymization-checker",
+      "name": "Anonymization Checker",
+      "category": "Privacy",
+      "description": "Validates effectiveness of data anonymization and pseudonymization techniques to prevent re-identification risks.",
+      "article": "Article 10",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "consent-management",
+      "name": "Consent Management",
+      "category": "Privacy",
+      "description": "Manages user consent collection, storage, and validation in compliance with GDPR and AI Act transparency requirements.",
+      "article": "Article 13",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "bias-detection",
+      "name": "Bias Detection",
+      "category": "Fairness",
+      "description": "Identifies and measures biases in AI models and training data across protected characteristics including race, gender, age, and disability.",
+      "article": "Article 10",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "fairness-metrics",
+      "name": "Fairness Metrics",
+      "category": "Fairness",
+      "description": "Calculates statistical fairness metrics to assess model performance across different demographic groups.",
+      "article": "Article 10",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "fairlearn",
+      "name": "Fairlearn",
+      "category": "Fairness",
+      "description": "Open-source toolkit for assessing and improving fairness of machine learning models with mitigation algorithms.",
+      "article": "Article 10",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "aif360",
+      "name": "AI Fairness 360 (AIF360)",
+      "category": "Fairness",
+      "description": "Comprehensive toolkit containing metrics and algorithms for bias detection and mitigation across the AI lifecycle.",
+      "article": "Article 10",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "explainability-lime",
+      "name": "LIME (Local Interpretable Model-Agnostic Explanations)",
+      "category": "Explainability",
+      "description": "Provides local explanations for individual predictions by approximating complex models with interpretable ones.",
+      "article": "Article 13",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "explainability-shap",
+      "name": "SHAP (SHapley Additive exPlanations)",
+      "category": "Explainability",
+      "description": "Game-theoretic approach to explain machine learning model outputs using Shapley values from cooperative game theory.",
+      "article": "Article 13",
+      "compulsory": false,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "model-cards",
+      "name": "Model Cards",
+      "category": "Documentation",
+      "description": "Structured documentation framework for reporting model performance, limitations, and ethical considerations.",
+      "article": "Article 11",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "data-sheets",
+      "name": "Data Sheets for Datasets",
+      "category": "Documentation",
+      "description": "Documentation framework for dataset characteristics, collection methodology, and recommended uses.",
+      "article": "Article 10",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "toxicity-detection",
+      "name": "Toxicity Detection",
+      "category": "Content Safety",
+      "description": "Identifies toxic, harmful, or offensive content in AI system outputs and training data.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "hallucination-detection",
+      "name": "Hallucination Detection",
+      "category": "Performance",
+      "description": "Detects when AI models generate false or fabricated information not grounded in training data or context.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "adversarial-robustness",
+      "name": "Adversarial Robustness Testing",
+      "category": "Security",
+      "description": "Tests AI model resilience against adversarial attacks and malicious input perturbations.",
+      "article": "Article 15",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "model-monitoring",
+      "name": "Model Monitoring",
+      "category": "Governance",
+      "description": "Continuous monitoring of AI model performance, data drift, and concept drift in production environments.",
+      "article": "Article 61",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "audit-logging",
+      "name": "Audit Logging",
+      "category": "Governance",
+      "description": "Comprehensive logging system for AI system decisions, inputs, outputs, and user interactions.",
+      "article": "Article 12",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "version-control",
+      "name": "Version Control",
+      "category": "Governance",
+      "description": "Tracks and manages different versions of AI models, datasets, and system configurations.",
+      "article": "Article 12",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "risk-assessment",
+      "name": "Risk Assessment",
+      "category": "Risk",
+      "description": "Systematic identification, analysis, and management of risks associated with AI system deployment and operation.",
+      "article": "Article 9",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    },
+    {
+      "id": "human-oversight",
+      "name": "Human Oversight",
+      "category": "Governance",
+      "description": "Ensures meaningful human oversight and intervention capabilities in AI system operations.",
+      "article": "Article 14",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "transparency-reporting",
+      "name": "Transparency Reporting",
+      "category": "Transparency",
+      "description": "Generates transparency reports and notifications for AI system users and affected persons.",
+      "article": "Article 13",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "incident-response",
+      "name": "Incident Response",
+      "category": "Governance",
+      "description": "Framework for identifying, reporting, and responding to AI system incidents and serious incidents.",
+      "article": "Article 62",
+      "compulsory": true,
+      "applicableRoles": ["Provider", "Deployer"]
+    },
+    {
+      "id": "model-cards-generator",
+      "name": "Model Cards Generator",
+      "category": "Documentation",
+      "description": "Automated generation of comprehensive model cards documenting AI system capabilities, limitations, and performance.",
+      "article": "Article 11",
+      "compulsory": true,
+      "applicableRoles": ["Provider"]
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "1",
+      "name": "Sarah Chen",
+      "avatar": "SC",
+      "email": "sarah.chen@company.com",
+      "role": "AI Compliance Lead",
+      "department": "Legal & Compliance"
+    },
+    {
+      "id": "2",
+      "name": "Michael Torres",
+      "avatar": "MT",
+      "email": "michael.torres@company.com",
+      "role": "Data Protection Officer",
+      "department": "Legal & Compliance"
+    },
+    {
+      "id": "3",
+      "name": "Emma Wilson",
+      "avatar": "EW",
+      "email": "emma.wilson@company.com",
+      "role": "AI Ethics Specialist",
+      "department": "Legal & Compliance"
+    },
+    {
+      "id": "4",
+      "name": "James Park",
+      "avatar": "JP",
+      "email": "james.park@company.com",
+      "role": "Technical Documentation Lead",
+      "department": "Engineering"
+    }
+  ],
+  "organization": {
+    "profile": {
+      "companyName": "Acme Corporation",
+      "legalEntity": "Acme Corporation Ltd.",
+      "registrationNumber": "GB12345678",
+      "jurisdiction": "United Kingdom",
+      "businessType": "Technology Services",
+      "industry": "Financial Technology",
+      "headOfficeAddress": {
+        "street": "123 Tech Street",
+        "city": "London",
+        "postalCode": "EC1A 1AA",
+        "country": "United Kingdom"
+      },
+      "dataProtectionOfficer": {
+        "name": "Michael Torres",
+        "email": "dpo@company.com",
+        "phone": "+44 20 1234 5678"
+      }
+    },
+    "documents": [
+      {
+        "id": "1",
+        "name": "Company_Registration.pdf",
+        "uploadTime": "2 mins ago",
+        "category": "Legal",
+        "size": "2.4 MB",
+        "uploadDate": "2025-02-03T14:25:00Z",
+        "uploadedBy": "Sarah Chen",
+        "description": "Official company registration certificate and articles of incorporation",
+        "status": "Verified"
+      },
+      {
+        "id": "2",
+        "name": "AI_Policy_Document.docx",
+        "uploadTime": "5 mins ago",
+        "category": "Policy",
+        "size": "1.8 MB",
+        "uploadDate": "2025-02-03T14:22:00Z",
+        "uploadedBy": "Michael Torres",
+        "description": "Comprehensive AI governance and usage policy for the organization",
+        "status": "Active"
+      },
+      {
+        "id": "3",
+        "name": "Compliance_Report_2024.pdf",
+        "uploadTime": "10 mins ago",
+        "category": "Compliance",
+        "size": "5.7 MB",
+        "uploadDate": "2025-02-03T14:17:00Z",
+        "uploadedBy": "Emma Wilson",
+        "description": "Annual compliance report covering EU AI Act, GDPR, and Data Act requirements",
+        "status": "Final"
+      },
+      {
+        "id": "4",
+        "name": "Data_Protection_Policy.pdf",
+        "uploadTime": "1 hour ago",
+        "category": "Policy",
+        "size": "3.2 MB",
+        "uploadDate": "2025-02-03T13:27:00Z",
+        "uploadedBy": "Michael Torres",
+        "description": "Data protection and privacy policy aligned with GDPR requirements",
+        "status": "Active"
+      },
+      {
+        "id": "5",
+        "name": "Risk_Management_Framework.pdf",
+        "uploadTime": "2 days ago",
+        "category": "Risk",
+        "size": "4.1 MB",
+        "uploadDate": "2025-02-01T10:30:00Z",
+        "uploadedBy": "Sarah Chen",
+        "description": "Risk assessment and management framework for AI systems",
+        "status": "Active"
+      }
+    ]
+  },
+  "prohibitedPractices": [
+    {
+      "id": "5-1-a",
+      "label": "Subliminal / manipulative / deceptive techniques that materially distort behaviour and are likely to cause significant harm",
+      "article": "Art. 5(1)(a)",
+      "hasException": false,
+      "exceptionCondition": null
+    },
+    {
+      "id": "5-1-b",
+      "label": "Exploitation of vulnerabilities (age, disability, or social/economic situation) to distort behaviour likely causing significant harm",
+      "article": "Art. 5(1)(b)",
+      "hasException": false,
+      "exceptionCondition": null
+    },
+    {
+      "id": "5-1-c",
+      "label": "Social scoring leading to detrimental/unfavourable treatment (esp. unjustified/disproportionate)",
+      "article": "Art. 5(1)(c)",
+      "hasException": false,
+      "exceptionCondition": null
+    },
+    {
+      "id": "5-1-d",
+      "label": "Criminal offence risk assessment / prediction based solely on profiling or personality traits (individual predictive policing)",
+      "article": "Art. 5(1)(d)",
+      "hasException": true,
+      "exceptionCondition": "AI system is used to support a human assessment based on objective and verifiable facts directly linked to criminal activity (not solely profiling). (Art.5(1)(d))"
+    },
+    {
+      "id": "5-1-e",
+      "label": "Untargeted scraping of facial images from the internet or CCTV to build / expand facial recognition databases",
+      "article": "Art. 5(1)(e)",
+      "hasException": false,
+      "exceptionCondition": null
+    },
+    {
+      "id": "5-1-f",
+      "label": "Emotion recognition in the workplace or in education settings",
+      "article": "Art. 5(1)(f)",
+      "hasException": true,
+      "exceptionCondition": "AI system is for medical or safety reasons. (Art.5(1)(f))"
+    },
+    {
+      "id": "5-1-g",
+      "label": "Biometric categorisation that infers or predicts sensitive traits (e.g., race, political opinions, religion, trade union membership, sexual orientation)",
+      "article": "Art. 5(1)(g)",
+      "hasException": true,
+      "exceptionCondition": "AI system is for labelling or filtering of lawfully acquired biometric datasets, such as images, based on biometric data or categorizing of biometric data in the area of law enforcement. (Art.5(1)(g))"
+    },
+    {
+      "id": "5-1-h",
+      "label": "Real-time remote biometric identification (RBI) in publicly accessible spaces for law enforcement purposes",
+      "article": "Art. 5(1)(h)",
+      "hasException": true,
+      "exceptionCondition": "Only if strictly necessary for one of the listed objectives (victims / imminent serious threat / serious crime suspect) and with safeguards + authorisation requirements (Art. 5(2)–(7))."
+    }
+  ],
+  "highRiskCategories": [
+    {
+      "id": "annex3-1",
+      "category": "Biometric identification and categorisation of natural persons",
+      "article": "Annex III, point 1",
+      "description": "Remote biometric identification systems and biometric categorisation systems"
+    },
+    {
+      "id": "annex3-2",
+      "category": "Management and operation of critical infrastructure",
+      "article": "Annex III, point 2",
+      "description": "AI systems intended to be used as safety components in the management and operation of road traffic and supply of water, gas, heating and electricity"
+    },
+    {
+      "id": "annex3-3",
+      "category": "Education and vocational training",
+      "article": "Annex III, point 3",
+      "description": "AI systems intended to be used for determining access to educational institutions, evaluating learning outcomes, or assessing appropriate level of education"
+    },
+    {
+      "id": "annex3-4",
+      "category": "Employment, workers management and access to self-employment",
+      "article": "Annex III, point 4",
+      "description": "AI systems intended to be used for recruitment, making decisions affecting employment, task allocation, and monitoring/evaluation of persons in work-related contractual relationships"
+    },
+    {
+      "id": "annex3-5",
+      "category": "Access to and enjoyment of essential private services and public services and benefits",
+      "article": "Annex III, point 5",
+      "description": "AI systems intended to evaluate creditworthiness, assess eligibility for public assistance, or dispatch emergency services"
+    },
+    {
+      "id": "annex3-6",
+      "category": "Law enforcement",
+      "article": "Annex III, point 6",
+      "description": "AI systems intended for individual risk assessment, lie detection, emotion recognition, deep fake detection, or evaluating evidence reliability"
+    },
+    {
+      "id": "annex3-7",
+      "category": "Migration, asylum and border control management",
+      "article": "Annex III, point 7",
+      "description": "AI systems intended for assessing risk posed by persons, examining applications, or detecting irregular migrants"
+    },
+    {
+      "id": "annex3-8",
+      "category": "Administration of justice and democratic processes",
+      "article": "Annex III, point 8",
+      "description": "AI systems intended to assist judicial authorities in researching and interpreting facts and law"
+    }
+  ],
+  "regulatoryFrameworks": [
+    {
+      "id": "eu-ai-act",
+      "name": "EU AI Act",
+      "description": "Regulation laying down harmonised rules on artificial intelligence",
+      "jurisdiction": "European Union",
+      "effectiveDate": "2024-08-01",
+      "fullComplianceDate": "2026-08-01"
+    },
+    {
+      "id": "gdpr",
+      "name": "General Data Protection Regulation (GDPR)",
+      "description": "Regulation on data protection and privacy",
+      "jurisdiction": "European Union",
+      "effectiveDate": "2018-05-25",
+      "fullComplianceDate": "2018-05-25"
+    },
+    {
+      "id": "data-act",
+      "name": "Data Act",
+      "description": "Regulation on harmonised rules on fair access to and use of data",
+      "jurisdiction": "European Union",
+      "effectiveDate": "2025-09-12",
+      "fullComplianceDate": "2025-09-12"
+    },
+    {
+      "id": "dsa",
+      "name": "Digital Services Act (DSA)",
+      "description": "Regulation on a Single Market For Digital Services",
+      "jurisdiction": "European Union",
+      "effectiveDate": "2024-02-17",
+      "fullComplianceDate": "2024-02-17"
+    }
+  ]
+}
